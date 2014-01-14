@@ -396,11 +396,15 @@ set tags=tags
 
 
 "-- Taglist setting--
-let Tlist_Show_One_File=1  
-let Tlist_Exit_OnlyWindow=1  
-let Tlist_Use_Right_Window=1
-map <F2> :TlistToggle <cr>
-imap <F2> <esc>:TlistToggle <cr>
+"let Tlist_Show_One_File=1  
+"let Tlist_Exit_OnlyWindow=1  
+"let Tlist_Use_Right_Window=1
+"map <F2> :TlistToggle <cr>
+"imap <F2> <esc>:TlistToggle <cr>
+
+"--TagBar
+map <F2> :TagbarToggle <cr>
+imap <F2> <esc>:TagbarToggle <cr>
 
 
 "--SuperTab--
