@@ -218,7 +218,7 @@ set textwidth=80
 set fo=t
 
 "get map settings
-source ./maps.vim
+source ~/.vim/maps.vim
 
 "get plugin settings
-source ./plugins.vim
+source ~/.vim/plugins.vim 
