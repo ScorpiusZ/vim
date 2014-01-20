@@ -3,5 +3,9 @@ snippet -m "add module" b
 endsnippet
 
 snippet -e "export function" b
--export([${1:function}:${2:1}]).
+-export([${1:function}/${2:1}]).
+endsnippet
+
+snippet -c "compile" b
+-compile(${1:export_all}).
 endsnippet
