@@ -35,4 +35,4 @@ autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTree
 
 "--Easy Motion
 let g:EasyMotion_leader_key = '<Leader>'
-let g:EasyMotion_keys = 'hjklasdfgyuiopqwertnmzxcvb'
+let g:EasyMotion_keys = 'hjklasdfguiowernmcv'
