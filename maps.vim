@@ -8,7 +8,6 @@ let g:mapleader = ","
 
 " copy 
 noremap <C-c> "+y
-noremap <C-v> "+p
 
 " Fast saving
 nmap <leader>s :w!<cr>
