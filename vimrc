@@ -29,8 +29,8 @@ set autoread
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => VIM user interface
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" Set 7 lines to the cursor - when moving vertically using j/k
-set so=7
+" Set 5 lines to the cursor - when moving vertically using j/k
+set scrolloff=5
 
 " Turn on the WiLd menu
 set wildmenu
