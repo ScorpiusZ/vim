@@ -167,7 +167,7 @@ set viminfo^=%
 set laststatus=2
 
 " Format the status line
-set statusline=\ %{HasPaste()}%F%m%r\ %w\ \ \ \ \ PWD:\ %r%{getcwd()}%h\ \ \ \ \ Line:\ %l/%L\ \ \ Col:%c\ \ \ FileType:%y\ 
+"set statusline=\ %{HasPaste()}%F%m%r\ %w\ \ \ \ \ PWD:\ %r%{getcwd()}%h\ \ \ \ \ Line:\ %l/%L\ \ \ Col:%c\ \ \ FileType:%y\ 
 
 
 " Delete trailing white space on save, useful for Python and CoffeeScript ;)
