@@ -44,3 +44,7 @@ let g:Powerline_symbols_override = {
             \ }
 let g:Powerline_dividers_override = ['>>', '>', '<<', '<']
 let g:Powerline_stl_path_style = 'short'
+
+"--Ctrlp
+map <C-f> :CtrlP<cr>
+imap <C-f> <esc>:CtrlP<cr>
