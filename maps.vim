@@ -35,9 +35,17 @@ inoremap <up> <nop>
 inoremap <down> <nop>
 inoremap <left> <nop>
 inoremap <right> <nop>
+
 " Remap VIM 0 to first non-blank character
 map 0 ^
 
+"When move around keep cursor center fo the screen
+nnoremap } }zz
+nnoremap { {zz
+nnoremap n nzz
+nnoremap N Nzz
+nnoremap <c-d> <c-d>zz
+nnoremap <c-u> <c-u>zz
 
 " Map <Space> to / (search) and Ctrl-<Space> to ? (backwards search)
 map <space> /
