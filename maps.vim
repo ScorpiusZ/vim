@@ -12,6 +12,9 @@ noremap <C-c> "+y
 " Fast saving
 nmap <leader>s :w!<cr>
 
+"Esc key map
+imap <c-j>j <esc>
+
 """"""""""""""""""""""""""""""
 " => Visual mode related
 """"""""""""""""""""""""""""""
@@ -40,6 +43,8 @@ inoremap <right> <nop>
 map 0 ^
 
 "When move around keep cursor center fo the screen
+nnoremap H Hzz
+nnoremap L Lzt
 nnoremap } }zz
 nnoremap { {zz
 nnoremap n nzz
