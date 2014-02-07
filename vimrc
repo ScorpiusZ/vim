@@ -179,8 +179,6 @@ endfunc
 autocmd BufWrite *.py :call DeleteTrailingWS()
 autocmd BufWrite *.coffee :call DeleteTrailingWS()
 
-"keyword setting
-set iskeyword-=@
 
 
 " Returns true if paste mode is enabled
