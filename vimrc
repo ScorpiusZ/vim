@@ -179,8 +179,8 @@ endfunc
 autocmd BufWrite *.py :call DeleteTrailingWS()
 autocmd BufWrite *.coffee :call DeleteTrailingWS()
 
-
-
+"treat @ not in a word
+set iskeyword-=@
 
 
 " Returns true if paste mode is enabled
