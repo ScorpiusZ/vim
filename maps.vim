@@ -13,7 +13,7 @@ noremap <C-c> "+y
 nmap <leader>s :w!<cr>
 
 "Esc key map
-imap <c-j>j <esc>
+inoremap jj <esc>
 
 """"""""""""""""""""""""""""""
 " => Visual mode related
