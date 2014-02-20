@@ -86,6 +86,7 @@ set tm=500
 syntax enable
 
 "colorscheme setting
+colorscheme solarized
 let g:solarized_termcolors=256
 let g:solarized_bold = 1 
 let g:solarized_underline = 1 
@@ -93,8 +94,6 @@ let g:solarized_italic = 1
 let g:solarized_contrast = "normal"
 let g:solarized_visibility= "normal"
 set t_CO=256
-"colo molokai
-colorscheme solarized
 set background=dark
 
 " Set extra options when running in GUI mode
@@ -220,3 +219,4 @@ source ~/.vim/maps.vim
 
 "get plugin settings
 source ~/.vim/plugins.vim 
+
