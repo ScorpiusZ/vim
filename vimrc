@@ -16,7 +16,7 @@ filetype indent on
 
 
 "Sets line numbers
-set nu
+set rnu
 set cursorline
 
 
