@@ -14,6 +14,11 @@ nmap <leader>s :w!<cr>
 inoremap jj <esc>
 
 """"""""""""""""""""""""""""""
+" => Buffer mappings
+""""""""""""""""""""""""""""""
+nmap <leader>d :bd<cr>
+
+""""""""""""""""""""""""""""""
 " => Visual mode related
 """"""""""""""""""""""""""""""
 " Visual mode pressing * or # searches for the current selection
