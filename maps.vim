@@ -17,6 +17,8 @@ inoremap jj <esc>
 " => Buffer mappings
 """"""""""""""""""""""""""""""
 nmap <leader>d :bd<cr>
+nnoremap <tab> :bn<cr>
+nnoremap <s-tab> :bp<cr>
 
 """"""""""""""""""""""""""""""
 " => Visual mode related
