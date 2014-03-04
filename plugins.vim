@@ -37,14 +37,12 @@ autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTree
 let g:EasyMotion_leader_key = '<Leader>'
 let g:EasyMotion_keys = 'hjklasdfguiowernmcv'
 
-"--Power line
-let g:Powerline_symbols_override = {
-            \ 'BRANCH': [0x2213],
-            \ 'LINE': 'L',
-            \ }
-let g:Powerline_dividers_override = ['>>', '>', '<<', '<']
-let g:Powerline_stl_path_style = 'short'
 
 "--Ctrlp
 map <C-f> :CtrlP<cr>
 imap <C-f> <esc>:CtrlP<cr>
+
+"airline 
+set laststatus=2
+let g:airline#extensions#tabline#left_sep = ' '
+let g:airline#extensions#tabline#enabled = 1
