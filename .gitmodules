@@ -34,3 +34,6 @@
 [submodule "bundle/vim-surround"]
 	path = bundle/vim-surround
 	url = https://github.com/tpope/vim-surround.git
+[submodule "vim-airline"]
+	path = vim-airline
+	url = git@github.com:bling/vim-airline.git
