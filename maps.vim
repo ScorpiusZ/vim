@@ -13,6 +13,11 @@ nmap <leader>s :w!<cr>
 "Esc key map
 inoremap jj <esc>
 
+"use system clipboard
+vnoremap y "*y
+noremap <leader>v "*p
+
+
 """"""""""""""""""""""""""""""
 " => Buffer mappings
 """"""""""""""""""""""""""""""
