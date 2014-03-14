@@ -54,7 +54,7 @@ map 0 ^
 
 "When move around keep cursor center fo the screen
 nnoremap H Hzz
-nnoremap L Lzt
+nnoremap L Lzz
 nnoremap } }zz
 nnoremap { {zz
 nnoremap n nzz
