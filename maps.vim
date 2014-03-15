@@ -14,8 +14,8 @@ nmap <leader>s :w!<cr>
 inoremap jj <esc>
 
 "use system clipboard
-vnoremap y "*y
-noremap <leader>v "*p
+vnoremap y "+y
+noremap <leader>v "+p
 
 
 """"""""""""""""""""""""""""""
