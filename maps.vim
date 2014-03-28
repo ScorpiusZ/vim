@@ -6,9 +6,13 @@
 let mapleader = ","
 let g:mapleader = ","
 
+"quick complie
+noremap <leader>rp :!python %<cr>
+noremap <leader>rc :!gcc % -o a.out;./a.out<cr>
 
 " Fast saving
-nmap <leader>s :w!<cr>
+noremap <leader>s :w!<cr>
+inoremap <leader>s <esc>:w!<cr>a
 
 "Esc key map
 inoremap jj <esc>
