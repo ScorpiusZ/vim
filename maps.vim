@@ -10,9 +10,13 @@ let g:mapleader = ","
 noremap <leader>rp :!python %<cr>
 noremap <leader>rc :!gcc % -o a.out;./a.out<cr>
 
+
 " Fast saving
 noremap <leader>s :w!<cr>
 inoremap <leader>s <esc>:w!<cr>a
+
+"visual all text
+noremap <leader>a ggVG
 
 "Esc key map
 inoremap jj <esc>
