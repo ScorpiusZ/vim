@@ -98,10 +98,16 @@ set background=dark
 
 " Set extra options when running in GUI mode
 if has("gui_running")
-    set guioptions-=T
-    set guioptions+=e
-    set t_Co=256
-    set guitablabel=%M\ %t
+    if has("gui_gtk2")
+        set guifont=Inconsolata\ 12
+    elseif has("gui_macvim")
+        set guifont=Droid\ Sans\ Mono\ for\ Powerline:h14
+        set lines=65 columns=245
+        set guioptions-=r
+        set guioptions-=L
+    elseif has("gui_win32")
+        set guifont=Consolas:h11:cANSI
+    endif
 endif
 
 " Set utf8 as standard encoding and en_US as the standard language
@@ -210,4 +216,4 @@ source ~/.vim/maps.vim
 
 "get plugin settings
 source ~/.vim/plugins.vim 
-
+ 
