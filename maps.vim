@@ -60,6 +60,10 @@ inoremap <right> <nop>
 " Remap VIM 0 to first non-blank character
 map 0 ^
 
+" some emacs maping
+inoremap <c-e> <esc>A 
+inoremap <c-k> <esc>lDa
+
 "When move around keep cursor center fo the screen
 nnoremap H Hzz
 nnoremap L Lzz
