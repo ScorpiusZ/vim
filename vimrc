@@ -2,8 +2,6 @@
 " => General
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Sets how many lines of history VIM has to remember
-
-
 execute pathogen#infect()
 set history=700
 set nocompatible
@@ -13,22 +11,13 @@ filetype on
 filetype plugin on
 filetype indent on
 
-
-
-"Sets line numbers
+"Sets line relative numbers 
 set rnu
 set cursorline
-
 
 " Set to auto read when a file is changed from the outside
 set autoread
 
-
-
-
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" => VIM user interface
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Set 5 lines to the cursor - when moving vertically using j/k
 set scrolloff=5
 
