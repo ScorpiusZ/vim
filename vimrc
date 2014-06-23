@@ -205,4 +205,3 @@ source ~/.vim/maps.vim
 
 "get plugin settings
 source ~/.vim/plugins.vim 
- 
