@@ -1,8 +1,9 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =6
+let g:netrw_dirhist_cnt =7
 let g:netrw_dirhist_1='/home/scorpius/Documents/githubs/quickblox-android-sdk/sample-chat/src/com/quickblox/sample/chat/ui'
 let g:netrw_dirhist_2='/home/scorpius/Documents/githubs/quickblox-android-sdk/sample-chat/src/com/quickblox/sample/chat/ui/fragments'
 let g:netrw_dirhist_3='/home/scorpius/Documents/githubs/quickblox-android-sdk/sample-chat/src/com/quickblox/sample/chat/ui'
 let g:netrw_dirhist_4='/home/scorpius/Documents/githubs/quickblox-android-sdk/sample-chat/src/com/quickblox/sample/chat/ui/activities'
 let g:netrw_dirhist_5='/home/scorpius/Documents/githubs/androidpn/androidpn-client/src/org/androidpn/client'
 let g:netrw_dirhist_6='/Users/ScorpiusZjj/Temp'
+let g:netrw_dirhist_7='/Users/ScorpiusZjj/.vim/plugin'
