@@ -31,5 +31,5 @@ let g:syntastic_mode_map={ 'mode': 'active',
                      \ 'passive_filetypes': ['html'] }
 
 "jedi-vim
-"let g:jedi#auto_initialization = 0
-"let g:jedi#auto_vim_configuration=0
+let g:jedi#auto_initialization = 0
+let g:jedi#auto_vim_configuration=0
