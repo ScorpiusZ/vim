@@ -8,7 +8,7 @@ let g:mapleader = ","
 
 "quick complie
 noremap <leader>rp :!python %<cr>
-noremap <leader>rc :!gcc % -o a.out;./a.out<cr>
+noremap <leader>rc :!gcc % -o a.out;./a.out;rm a.out<cr>
 noremap <leader>re :!erl<cr>
 
 
