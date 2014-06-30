@@ -4,7 +4,6 @@
 "           SuperTab
 "           airline 
 "           syntastic
-"           jedi-vim(python auto-complete)
 
 
 
@@ -29,7 +28,8 @@ let g:airline_powerline_fonts = 1
 let g:syntastic_mode_map={ 'mode': 'active',
                      \ 'active_filetypes': [],
                      \ 'passive_filetypes': ['html'] }
+"ultisnips
+let g:UltiSnipsExpandTrigger="<c-j>"
+let g:UltiSnipsJumpForwardTrigger="<c-j>"
+let g:UltiSnipsJumpBackwardTrigger="<c-k>"
 
-"jedi-vim
-let g:jedi#auto_initialization = 0
-let g:jedi#auto_vim_configuration=0
