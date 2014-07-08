@@ -1,8 +1,8 @@
 let g:netrw_dirhistmax  =10
 let g:netrw_dirhist_cnt =6
-let g:netrw_dirhist_1='/Users/ScorpiusZjj/Documents/iProject/Coding/android_adpush/code/src/com/antroid'
-let g:netrw_dirhist_2='/Users/ScorpiusZjj/Documents/iProject/Coding/android_adpush/code/src/com/antroid/hotfix'
-let g:netrw_dirhist_3='/Users/ScorpiusZjj/Documents/iProject/Coding/android_adpush/code/src/com/antroid'
-let g:netrw_dirhist_4='/Users/ScorpiusZjj/Documents/iProject/Coding/android_adpush/code/src/com'
-let g:netrw_dirhist_5='/Users/ScorpiusZjj/Documents/iProject/Coding/android_adpush/code/src/com/antroid'
-let g:netrw_dirhist_6='/Users/ScorpiusZjj/Documents/iProject/Coding/android_adpush/code/src/com/antroid/hotfix'
+let g:netrw_dirhist_1='/home/scorpius/Documents/githubs/android_adpush/jar_lib/src'
+let g:netrw_dirhist_2='/home/scorpius/Documents/githubs/android_adpush/jar_lib/src/com'
+let g:netrw_dirhist_3='/home/scorpius/Documents/githubs/android_adpush/jar_lib/src/com/antroid'
+let g:netrw_dirhist_4='/home/scorpius/Documents/githubs/android_adpush/jar_lib/src/com/antroid/hotfix'
+let g:netrw_dirhist_5='/home/scorpius/Documents/githubs/android_adpush/jar_lib/src/com/antroid/hotfix/utils'
+let g:netrw_dirhist_6='/home/scorpius/Documents/githubs/android_adpush/jar_lib/src'
