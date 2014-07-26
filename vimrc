@@ -88,7 +88,10 @@ set background=dark
 " Set extra options when running in GUI mode
 if has("gui_running")
     if has("gui_gtk2")
-        set guifont=Inconsolata\ 12
+        set guifont=Inconsolata\ 10
+        set guioptions-=T
+        set guioptions-=r
+        set guioptions-=L
     elseif has("gui_macvim")
         set guifont=Droid\ Sans\ Mono\ for\ Powerline:h14
         set lines=65 columns=245
