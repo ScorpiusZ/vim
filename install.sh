@@ -3,5 +3,4 @@
 
 rm ~/.vimrc
 ln vimrc ~/.vimrc
-git submodule init 
-git submodule update
+git submodule update --init --recursive
