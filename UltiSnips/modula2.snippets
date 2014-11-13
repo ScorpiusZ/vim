@@ -2,7 +2,7 @@ snippet he "mardown blog header" b
 ---
 layout: post
 title:  "${1:title}"
-date:   2014-11-13 12:10:00
+date:   `!v strftime("%Y-%m-%d %H:%M:%S")`
 categories: ${2:categories}
 tags: ${3:tags}
 author: "ScorpiusZ"
