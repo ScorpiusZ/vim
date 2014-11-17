@@ -22,7 +22,7 @@ imap <C-f> <esc>:CtrlP<cr>
 set wildignore+=*/tem/*,*.so,*.swp,*.zip
 let g:ctrlp_custom_ignore = {
   \ 'dir':  '\v[\/]\.(git|hg|svn)$',
-  \ 'file': '\v\.(class|exe|so|dll)$',
+  \ 'file': '\v\.(class|exe|so|dll|png|jpg|jpeg)$',
   \ 'link': 'some_bad_symbolic_links',
   \ }
 
