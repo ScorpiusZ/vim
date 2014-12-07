@@ -43,3 +43,6 @@ let g:UltiSnipsJumpBackwardTrigger="<c-k>"
 
 "crtlSF
 map <leader>f :CtrlSF
+
+"Dash
+nnoremap <leader>se :Dash<cr>
