@@ -6,7 +6,7 @@ Installation
 
 Using git you can have the full master branch: ::
 
-    git clone https://github.com/Scorpiuszjj/vim.git 
+    git clone https://github.com/ScorpiusZ/vim.git 
     mv -u vim  ~/.vim
     cd ~/.vim
     git submodule init
