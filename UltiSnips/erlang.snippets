@@ -1,13 +1,10 @@
-snippet -m "add module" b
--module(${1:name}).
+snippet bin "declare module" b
+-module(`!p snip.rv=fn.replace(".erl","")`).
+-compile(export_all).
 endsnippet
 
 snippet -e "export function" b
 -export([${1:function}/${2:1}]).
-endsnippet
-
-snippet -c "compile" b
--compile(${1:export_all}).
 endsnippet
 
 snippet def "function " b
