@@ -111,7 +111,7 @@ if has("gui_running")
         set guioptions-=r
         set guioptions-=L
     elseif has("gui_macvim")
-        set guifont=Droid\ Sans\ Mono\ for\ Powerline:h14
+        set guifont=Droid\ Sans\ Mono\ for\ Powerline:h15
         set lines=65 columns=245
         set guioptions-=r
         set guioptions-=L
