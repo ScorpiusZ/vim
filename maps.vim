@@ -23,7 +23,7 @@ noremap <leader>a ggVG
 inoremap jj <esc>
 
 "use system clipboard
-vnoremap y "+y
+noremap <leader>y "+y
 noremap <leader>v "+p
 
 
