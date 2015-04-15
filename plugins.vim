@@ -46,3 +46,10 @@ map <leader>f :CtrlSF
 
 "Dash
 nnoremap <leader>se :Dash<cr>
+
+"fugitive
+map <leader>gd :Gdiff<cr>
+map <leader>gst :Gstatus<cr>
+map <leader>gco :Git checkout 
+map <leader>ga :Git add %<cr>
+map <leader>grm :Git rm %<cr>
