@@ -19,6 +19,7 @@ let g:SuperTabDefultCompletionType="context"
 "--Ctrlp
 map <C-f> :CtrlP<cr>
 imap <C-f> <esc>:CtrlP<cr>
+let g:ctrlp_working_path_mode = 'ra'
 set wildignore+=*/tem/*,*.so,*.swp,*.zip
 let g:ctrlp_custom_ignore = {
   \ 'dir':  '\v[\/]\.(git|hg|svn)$',

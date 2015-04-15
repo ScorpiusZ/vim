@@ -68,7 +68,7 @@ set t_vb=
 set tm=500
 
 "auto change local dir
-autocmd BufEnter * silent! lcd %:p:h
+"autocmd BufEnter * silent! lcd %:p:h
 
 "auto paste mode
 if &term =~ "xterm.*"
