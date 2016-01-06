@@ -7,11 +7,6 @@ snippet pr "print " !b
 print ${1:something}
 endsnippet
 
-snippet wh "while" !b
-while ${1:condition}:
-	${2:code}
-endsnippet
-
 snippet main "main" b
 def $1(${2:args}):
 	${3:pass}
@@ -23,3 +18,62 @@ endsnippet
 snippet im "import" b
 import ${1:package}
 endsnippet
+
+snippet from
+from ${1:package} import ${2:module}
+endsnippet
+
+snippet with
+with ${1:expr} as ${2:var}:
+	${3:# TODO: write code...}
+endsnippet
+
+# New Class
+snippet cl
+class ${1:ClassName}(${2:object}):
+	"""${3:docstring for $1}"""
+	def __init__(self, ${4:arg}):
+		${5:super($1, self).__init__()}
+		self.$4 = $4
+		${6}
+endsnippet
+
+
+# Ifs
+snippet if
+	if ${1:condition}:
+		${2:# TODO: write code...}
+endsnippet
+
+snippet el
+	else:
+		${1:# TODO: write code...}
+endsnippet
+
+snippet ei
+	elif ${1:condition}:
+		${2:# TODO: write code...}
+endsnippet
+
+# For
+snippet for
+	for ${1:item} in ${2:items}:
+		${3:# TODO: write code...}
+endsnippet
+
+snippet try Try/Except
+	try:
+		${1:# TODO: write code...}
+	except ${2:Exception}, ${3:e}:
+		${4:raise $3}
+endsnippet
+
+snippet try Try/Except/Finally
+	try:
+		${1:# TODO: write code...}
+	except ${2:Exception}, ${3:e}:
+		${4:raise $3}
+	finally:
+		${5:# TODO: write code...}
+endsnippet
+
