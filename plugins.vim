@@ -26,7 +26,6 @@ let g:ctrlp_custom_ignore = {
   \ 'link': 'some_bad_symbolic_links',
   \ }
 
-
 "airline 
 set laststatus=2
 let g:airline#extensions#tabline#enabled = 1
@@ -50,6 +49,7 @@ nnoremap <leader>se :Dash<cr>
 "fugitive
 map <leader>gd :Gdiff<cr>
 map <leader>gst :Gstatus<cr>
-map <leader>gco :Git checkout 
+map <leader>gco :Git checkout %<cr>
 map <leader>ga :Git add %<cr>
 map <leader>grm :Git rm %<cr>
+map <leader>grs :Git reset %<cr>
