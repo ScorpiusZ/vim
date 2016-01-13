@@ -1,20 +1,19 @@
 "My plugins config file
 "plugins list 
 "           TagBar
-"           SuperTab
+"           Ctrlp
 "           airline 
 "           syntastic
+"           ultisnips
 "           crtlSF
-
+"           Dash
+"           fugitive
 
 
 "--TagBar
 map <F2> :TagbarToggle <cr>
 imap <F2> <esc>:TagbarToggle <cr>
 
-
-"--SuperTab--
-let g:SuperTabDefultCompletionType="context"
 
 "--Ctrlp
 map <C-f> :CtrlP<cr>
