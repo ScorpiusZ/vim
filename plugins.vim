@@ -53,3 +53,7 @@ map <leader>gco :Git checkout %<cr>
 map <leader>ga :Git add %<cr>
 map <leader>grm :Git rm %<cr>
 map <leader>grs :Git reset %<cr>
+
+"nerdtree
+map <f3> :NERDTreeToggle<CR>
+
