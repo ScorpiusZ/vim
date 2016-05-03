@@ -56,6 +56,7 @@ map <leader>f :CtrlSF
 nnoremap <leader>se :Dash<cr>
 
 "fugitive
+set diffopt +=vertical
 map <leader>gd :Gdiff<cr>
 map <leader>gst :Gstatus<cr>
 map <leader>gco :Git checkout %<cr>
