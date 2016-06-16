@@ -1,6 +1,3 @@
-"My maps config file
-"
-
 " With a map leader it's possible to do extra key combinations
 " like <leader>w saves the current file
 let mapleader = ","
@@ -49,14 +46,6 @@ vnoremap <silent> # :call VisualSelection('b')<CR>
 map j gj
 map k gk
 nnoremap Y y$
-nnoremap <up> ddkP
-nnoremap <down> ddp
-nnoremap <left> <nop>
-nnoremap <right> <nop>
-inoremap <up> <nop>
-inoremap <down> <nop>
-inoremap <left> <nop>
-inoremap <right> <nop>
 
 " Remap VIM 0 to first non-blank character
 map 0 ^
@@ -75,9 +64,6 @@ nnoremap N Nzz
 nnoremap <c-d> <c-d>zz
 nnoremap <c-u> <c-u>zz
 
-" Map <Space> to / (search) and Ctrl-<Space> to ? (backwards search)
-map <space> /
-map <c-space> ?
 
 " Disable highlight when <leader><cr> is pressed
 map <silent> <leader><cr> :noh<cr>

@@ -1,10 +1,41 @@
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => General
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+"Plugins
+call plug#begin('~/.vim/plugged')
+
+Plug 'junegunn/vim-easy-align'
+Plug 'SirVer/ultisnips' 
+Plug 'airblade/vim-gitgutter'
+
+"Plug 'eugen0329/vim-esearch'
+Plug 'dyng/ctrlsf.vim'
+
+Plug 'vim-airline/vim-airline'
+
+Plug 'Valloric/YouCompleteMe', { 'do': './install.py --all' }
+
+Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': 'yes \| ./install --all' }
+Plug 'junegunn/fzf.vim'
+
+Plug 'Raimondi/delimitMate'
+
+Plug 'tpope/vim-surround'
+Plug 'tpope/vim-fugitive'
+
+Plug 'scrooloose/nerdtree'
+Plug 'scrooloose/syntastic'
+Plug 'scrooloose/nerdcommenter'
+
+Plug 'altercation/vim-colors-solarized'
+
+Plug 'rizzatti/dash.vim'
+
 " Sets how many lines of history VIM has to remember
-execute pathogen#infect()
 set history=700
 set nocompatible
+" Add plugins to &runtimepath
+call plug#end()
 
 " Enable filetype plugins
 filetype on
